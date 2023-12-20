@@ -18,3 +18,11 @@ const id = 20;
 
 console.log('<div id = "' + id +'"> teste <div>');
 console.log(`<div id = "${id}"> test <div>`);
+
+
+// synbol
+// OBJETOS UNICOS
+
+const x = Symbol('10');
+const y = Symbol('10');
+console.log(x === y);
