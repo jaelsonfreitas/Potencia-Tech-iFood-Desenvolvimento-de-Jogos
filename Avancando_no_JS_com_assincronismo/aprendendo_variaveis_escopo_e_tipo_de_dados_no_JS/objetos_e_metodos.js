@@ -7,16 +7,22 @@
     Symbol*/
     //Object
 
-    const pessoa = {
-        nome: "Jaelson",
-        idade: 30,
-        falar: function() {
-            console.log(`Meu nome é: ${this.nome}`);
-        }
+    // const pessoa = {
+    //     nome: "Jaelson",
+    //     idade: 30,
+    //     falar: function() {
+    //         console.log(`Meu nome é: ${this.nome}`);
+    //     }
 
-    }
-    pessoa.falar()
+    // }
+    // pessoa.falar()
 
     // x.sobrenome = "Jose de Freitas"
 
     // console.log(x['sobrenome']);
+
+    calcular();
+
+    function calcular() {
+        console.log('Calculando...');
+    }
